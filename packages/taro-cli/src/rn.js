@@ -82,7 +82,7 @@ function initProjectFile () {
   // generator app.json
   const appJsonObject = Object.assign({}, {
     expo: {
-      sdkVersion: '27.0.0'
+      sdkVersion: '28.0.0'
     }
   }, projectConfig.rn && projectConfig.rn.appJson)
   // generator .${tempPath}/package.json TODO JSON.parse 这种写法可能会有隐患
